@@ -93,6 +93,8 @@ hash_optimal:=function(data,gens,TC,K,strategy)
 
     end for;
 
+    _,image_thetas:=Isogeny33ImageAndPoints(R,S,TC,pts);
+    
     return image_thetas;
 
 end function;
